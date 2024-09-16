@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Ejercicio2_1 : MonoBehaviour
-{
+{   //2.1
     int edad;
     float altura;
     string nombre;
@@ -23,12 +23,27 @@ public class Ejercicio2_1 : MonoBehaviour
     int mayorEdad;
     int dias;
     float contador;
+    char tallaCamiseta;
 
+    //2.2
+    int vidas = 10;
+    float exp = 5.0f;
+    char cacar = ' ';
+    float resultadoSuma;
+    float resultadoResta;
     // Start is called before the first frame update
 
     void Start()
-    //2. EJERCICIOS DE MANEJO DE VARIABLES 
     {
+        Debug.Log("Vida = " + vidas);
+        Debug.Log("Exp= " + exp);
+
+        resultadoSuma = vidas + exp;
+        Debug.Log("resultadoSuma= " + resultadoSuma);
+
+        resultadoResta = exp - vidas;
+        Debug.Log("resultadoResta= " + resultadoResta);
+
 
 
 
