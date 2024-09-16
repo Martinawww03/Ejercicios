@@ -8,6 +8,11 @@ public class Ejercicio4_2 : MonoBehaviour
     void Start()
     {
         
+        
+    }
+    void ConstruirNombre()
+    {
+
     }
 
     // Update is called once per frame
