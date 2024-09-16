@@ -10,7 +10,7 @@ public class Ejercicio5_1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (puntos1==puntos1)
+        if (puntos1==puntos2)
         {
             Debug.Log("");
         }
