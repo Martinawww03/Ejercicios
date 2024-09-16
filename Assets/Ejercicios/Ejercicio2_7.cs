@@ -15,7 +15,7 @@ public class Ejercicio2_7 : MonoBehaviour
         oroMinuto = oro * segundos;
         oroHora = oroMinuto * 60;
         oroTotal = oroHora * 4;
-        Debug.Log("el número total de  unidades de oro farmeadas en 4h = "+ oroTotal);
+        Debug.Log("el numero total de  unidades de oro farmeadas en 4h = "+ oroTotal);
 
 
 
