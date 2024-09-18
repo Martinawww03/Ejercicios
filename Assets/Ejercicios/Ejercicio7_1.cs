@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Video;
 
-public class Apuntes_While : MonoBehaviour
-{ int vidas;
+public class Ejercicio7_1 : MonoBehaviour
+{
+    int numeros = 100;
 
     // Start is called before the first frame update
     void Start()
     {
-        while (vidas>0)
+        while (numeros>0)
         {
-            Debug.Log("sigo vivo");
+            Debug.Log(numeros);
+            numeros--;
         }
         
     }
