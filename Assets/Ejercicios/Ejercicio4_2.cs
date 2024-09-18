@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class Ejercicio4_2 : MonoBehaviour
 {
+    string nombre = "Pepe";
+    string apellido1 = " Rodriguez";
+    string apellido2 = "Jimenez";
+
     // Start is called before the first frame update
     void Start()
     {
-        
-        
+        ConstruirNombre(nombre, apellido1, apellido2);
+        Debug.Log("La persona se llama " + nombre + " " + apellido1 + " " + apellido2);
     }
-    void ConstruirNombre()
+    
+    void ConstruirNombre(string nombre, string apellido1, string apellido3)
     {
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
