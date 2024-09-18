@@ -12,12 +12,14 @@ public class Ejercicio4_2 : MonoBehaviour
     void Start()
     {
         ConstruirNombre(nombre, apellido1, apellido2);
-        Debug.Log("La persona se llama " + nombre + " " + apellido1 + " " + apellido2);
+        
+        
     }
     
     void ConstruirNombre(string nombre, string apellido1, string apellido3)
     {
-
+        string construirNombre= nombre+ apellido1 + apellido2;
+        
     }
 
    
