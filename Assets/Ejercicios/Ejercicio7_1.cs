@@ -8,13 +8,12 @@ public class Ejercicio7_1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        while (numeros < 100) ;
+        while (numeros < 100) 
         {
-            debug.log(numeros);
+            Debug.Log(numeros);
             numeros++;
 
         }
-        
     }
 
     // Update is called once per frame
