@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class Ejercicio7_1 : MonoBehaviour
 {
+    int numeros = 1;
     // Start is called before the first frame update
     void Start()
     {
+        while (numeros < 100) ;
+        {
+            debug.log(numeros);
+            numeros++;
 
+        }
         
     }
 
