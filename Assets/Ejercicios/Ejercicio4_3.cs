@@ -10,7 +10,7 @@ public class Ejercicio4_3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Convertir(moneda, cantidad);
+        Convertir("euro", 1);
     }
     double Convertir(string moneda,double cantidad)
     {
