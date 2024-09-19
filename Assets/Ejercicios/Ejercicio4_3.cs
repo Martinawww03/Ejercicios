@@ -4,18 +4,37 @@ using UnityEngine;
 
 public class Ejercicio4_3 : MonoBehaviour
 {
-    float cantidad;
-    string dolar;
-    string euro;
+    double cantidad;
+    string moneda;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        Convertir(moneda, cantidad);
     }
-    string Convertir(string dolar,float cantidad)
+    double Convertir(string moneda,double cantidad)
     {
-        string 
+        if (moneda == "euro")
+        {
+            cantidad = cantidad + (cantidad * 0.1);
+            Debug.Log(cantidad);
+            return cantidad;
+
+        }
+        else if (moneda == "dolar")
+        {
+            cantidad = cantidad - (cantidad * 0.1);
+            Debug.Log(cantidad);
+            return cantidad;
+
+        }
+        else
+        {
+            Debug.Log("escribe una moneda valido: euro o dolar.");
+            return cantidad;
+        }
+
+
     }
     
 }
