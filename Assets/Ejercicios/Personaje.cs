@@ -4,21 +4,11 @@ using UnityEngine;
 
 public class Personaje : MonoBehaviour
 {
-    string nombre;
-    float vida;
-    float danho;
-    float velocidad;
+    private string nombre;
+    private float vida;
+    private float exp;
 
-    //QUÉ puede hacer mi personaje
-    void Mover()
-    {
-
-    }
-    void Atacar()
-    {
-
-    }
-    void Saltar()
+    void CalucularNiver()
     {
 
     }
