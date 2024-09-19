@@ -11,6 +11,7 @@ public class Personaje : MonoBehaviour
     void CalucularNiver()
     {
 
+
     }
 
 }
