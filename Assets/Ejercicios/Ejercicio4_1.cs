@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class Ejercicio4_1 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] float lado = 1, radio = 10, Base = 15, altura = 20, pi = 3.14f;   // Start is called before the first frame updatfe
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    float AreaCuadrado(float lado)
     {
-        
+        float acuadrado = lado * lado;
+        return acuadrado;
+
+    }
+    float AreaTriangulo(float Base,float altura)
+    {
+        float atriangulo= Base * altura / 2;
+        return atriangulo;
+    }
+    float AreaCirculo(float radio, float pi)
+    {
+        float acirculo = radio * 2 * pi;
+        return acirculo;
     }
 }
