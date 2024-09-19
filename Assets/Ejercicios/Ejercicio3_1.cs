@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio3_1 : MonoBehaviour
+public class Ejercicio3_2 : MonoBehaviour
 {
     //3.1
     int vidas = 2;
