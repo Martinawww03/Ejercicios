@@ -1,19 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
-public class Ejercicio5_1 : MonoBehaviour
-{
-    int puntos1;
-    int puntos2;
+public class Apuntes_While : MonoBehaviour
+{ int vidas;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (puntos1==puntos2)
+        while (vidas>0)
         {
-            Debug.Log("");
+            Debug.Log("sigo vivo");
         }
+        
     }
 
     // Update is called once per frame
