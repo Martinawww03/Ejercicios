@@ -7,14 +7,15 @@ public class Ejercicio4_3 : MonoBehaviour
     float cantidad;
     string dolar;
     string euro;
+
     // Start is called before the first frame update
     void Start()
     {
         
     }
-    void Convertir()
+    string Convertir(string dolar,float cantidad)
     {
-        
+        string 
     }
     
 }
