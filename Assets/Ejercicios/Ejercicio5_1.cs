@@ -12,7 +12,11 @@ public class Ejercicio5_1 : MonoBehaviour
     {
         if (puntos1==puntos2)
         {
-            Debug.Log("");
+            Debug.Log("la batalla está reñida");
+        }
+        else
+        {
+            Debug.Log("la batalla no está reñida");
         }
     }
 
