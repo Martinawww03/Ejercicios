@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio7_10 : MonoBehaviour
+public class Ejercicio7_2 : MonoBehaviour
 {
-    [SerializeField] private int numero;
-    [SerializeField] private int numero2;
     // Start is called before the first frame update
     void Start()
     {
-      
+        for(int numero=1; numero<=100; numero++)
+        {
+            Debug.Log(numero);
+        }
+
     }
-    
-    
+
 }
